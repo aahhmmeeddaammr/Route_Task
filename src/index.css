@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#Home {
+
+  transition: all 0.4s;
+}
+
+#graph {
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
+  transition: opacity 0.4s;
+}
+#bar{
+  transition-delay: 3s;
+  transition-timing-function: ease-out;
+  transition: opacity 10s;
+}
+#close{
+  transition: all 1s;
+}
+#close:hover{
+  color: red;
+}
+#xx{
+  transition-delay:3s ;
+  transition: all 1000s;
+}
